@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.author       = { 'Shashi Tiwari' => 'shashi.tiwari220@gmail.com' }
   #spec.license      = { :type => 'BSD', :text => License }
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
-  spec.source       = { :git => 'https://github.com/ShashiTiwari07/CliWithPod.git'} #, :tag => "#{s.version}" }
+  spec.source       = { :git => 'https://github.com/ShashiTiwari07/CliWithPod.git', :tag => "#{s.version}" }
   spec.requires_arc = true
   spec.source_files = 'SampleCocoa3March'
   spec.swift_version = "5.0"
